@@ -1,0 +1,39 @@
+.vh-100{
+    animation: changeBg 5s infinite alternate linear;
+   }
+   
+   @keyframes changeBg{
+    0%{
+       background: #000563;
+    }
+
+    25%{
+        background: #111562;
+     }
+    
+    50%{
+       background: #2d305c;
+    }
+
+    75%{
+        background: #6a1414;
+     }
+    
+    100%{
+       background: #df0000;
+    }
+   }
+
+.card{
+    background-color: black;
+    width: 500px;
+    margin-top: 5%;
+    padding: 48px;
+    border-radius: 44px;
+    align-items: center;
+    opacity: 90%;
+}
+
+.form-label, h3{
+    color:beige;
+}

@@ -1,0 +1,40 @@
+#logoAP{
+    width: 150px;
+}
+
+img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    margin-right: 0.8em;
+}
+
+.btn{
+    border-width: 2px;
+}
+
+@media (max-width: 575px){
+    .redes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .redes img{
+        margin: 0.2em;
+    }
+    
+    .container{
+        flex-direction: column;
+    }
+}
+
+
